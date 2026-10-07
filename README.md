@@ -12,4 +12,6 @@ Circle CI `build_test_publish` pipeline completed successfully.
 
 ![Circle CI Pipelines](assets/images/circleci-pipelines.jpg)
 
-Added to trigger pipeline on CircleCI
+## Pipeline End-to-End Test
+
+![Pipeline End-to-End Test](assets/images/postman-devops-demo.jpg)
