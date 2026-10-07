@@ -11,3 +11,5 @@ Image `ensanguine/devops-demo` has been pushed to DockerHub.
 Circle CI `build_test_publish` pipeline completed successfully.
 
 ![Circle CI Pipelines](assets/images/circleci-pipelines.jpg)
+
+Added to trigger pipeline on CircleCI
