@@ -75,6 +75,7 @@ jobs:
             npx --yes @railway/cli redeploy \
               --project "$RAILWAY_PROJECT_ID" \
               --service "$RAILWAY_SERVICE_ID" \
+              --environment "production" \
               --yes
             echo "Railway is now pulling $DOCKER_USERNAME/devops-demo:latest from Docker Hub."
 
