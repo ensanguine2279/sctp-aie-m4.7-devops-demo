@@ -93,7 +93,7 @@ jobs:
 # WORKFLOW - Run jobs in sequence
 # ==========================================
 workflows:
-  build_test_publish:
+  build_test_publish_deploy:
     jobs:
       - build
       - test:

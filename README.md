@@ -1,17 +1,13 @@
-Completed devops-demo from [4.7 Continuous Integration with CircleCI](https://github.com/su-ntu-sctp/ai-4.7-Continuous-Integration/blob/main/lesson.md)
+Completed devops-demo for [Lesson 4.12: Continuous Deployment - Automated Deployment to Railway](https://github.com/su-ntu-sctp/ai-4.12-continuous-deployment/blob/main/lesson.md)
 
-## DockerHub Images
+## Part 2 Step 3 - Create a Service from Your Docker Image
 
-Image `ensanguine/devops-demo` has been pushed to DockerHub. 
+![devops-demo service on Railway](assets/images/railway-devops-demo.jpg)
 
-![DockerHub Images](assets/images/dockerhub-images.jpg)
+## Part 2 Step 4 - Generate Public Domain
 
-## Circle CI Pipelines
+![devops-demo public domain on Railway](assets/images/railway-devops-demo-domain.jpg)
 
-Circle CI `build_test_publish` pipeline completed successfully.
+## Part 2 Step 5: Verify Deployment
 
-![Circle CI Pipelines](assets/images/circleci-pipelines.jpg)
-
-## Pipeline End-to-End Test
-
-![Pipeline End-to-End Test](assets/images/postman-devops-demo.jpg)
+![Testing devops-demo /hello endpoint](assets/images/bruno-devops-demo-test.jpg)
