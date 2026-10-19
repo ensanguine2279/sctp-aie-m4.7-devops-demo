@@ -72,7 +72,10 @@ jobs:
           name: Redeploy latest image on Railway
           command: |
             echo "Asking Railway to redeploy the latest image..."
-            npx --yes @railway/cli redeploy --service "$RAILWAY_SERVICE_ID" --yes
+            npx --yes @railway/cli redeploy \
+              --project "$RAILWAY_PROJECT_ID" \
+              --service "$RAILWAY_SERVICE_ID" \
+              --yes
             echo "Railway is now pulling $DOCKER_USERNAME/devops-demo:latest from Docker Hub."
 
 workflows:
